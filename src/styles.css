@@ -1,0 +1,44 @@
+body{
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+      background-color:  hsl(27, 66%, 92%);
+      font-size: 18px;
+}
+
+.container{
+      width: 33%;
+}
+
+.weekDays img{
+      background-color: hsl(10, 79%, 65%);
+}
+
+.bgHeader{
+      background-color: hsl(10, 79%, 65%);
+      margin-bottom: 20px;
+      border-radius: 15px;
+}
+
+
+.myBalance{
+      color: white;
+}
+
+.borderRadius{
+      border-radius: 10px;
+}
+
+.borderGraphic{
+      border-bottom: 1px solid lightgrey;
+}
+
+.weekDays{
+      color: grey;
+      font-size: 12px;
+}
+
+.finalBalance{
+      font-size: 15px;
+      color: grey;
+}

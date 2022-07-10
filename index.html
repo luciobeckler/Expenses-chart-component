@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- displays site properly based on user's device -->
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+      <title>Frontend Mentor | Expenses chart component</title>
+
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <style>
+            .attribution {
+                  font-size: 11px;
+                  text-align: center;
+            }
+
+            .attribution a {
+                  color: 5 hsl(228, 4100%, 44%);
+            }
+      </style>
+      <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body class="d-flex align-items-center">
+      <div class="container d-flex justify-content-center  flex-column h-50 p-0">
+            <div class="row bgHeader w-100 h-25 d-flex p-3">
+                  <div class="col-12 d-flex w-100">
+                        <div class="d-flex flex-row justify-content-between w-100 align-items-center">
+                              <div class="d-flex flex-column justify-content-center myBalance">
+                                    <p class="m-0"> My balance</p>
+                                    <h3 class="m-0"> $921.48</h3>
+                              </div>
+                              <img src="images/logo.svg" alt="" height="75%">
+                        </div>
+                  </div>
+            </div>
+
+            <div class="row d-flex flex-column  h-75 w-100 ">
+                  <div class="col-12 d-flex flex-column h-100 w-100 bg-white borderRadius">
+                        <h4 class="h-25 pt-4">
+                              Spending - Last 7 days
+                        </h4>
+
+                        <div class="d-flex h-75 w-100 flex-row borderGraphic">
+                              <div class="d-flex flex-column align-items-center weekDays">
+                                    <img src="images/rectangle.png" height="70%" width="60%" alt="">
+                                    <p>mon</p>
+                              </div>
+
+                              <div class="d-flex flex-column align-items-center weekDays">
+                                    <img src="images/rectangle.png" height="70%" width="60%" alt="">
+                                    <p>tue</p>
+                              </div>
+
+                              <div class="d-flex flex-column align-items-center weekDays">
+                                    <img src="images/rectangle.png" height="70%" width="60%" alt="">
+                                    <p>wed</p>
+                              </div>
+
+                              <div class="d-flex flex-column align-items-center weekDays">
+                                    <img src="images/rectangle.png" height="70%" width="60%" alt="">
+                                    <p>thu</p>
+                              </div>
+
+                              <div class="d-flex flex-column align-items-center weekDays">
+                                    <img src="images/rectangle.png" height="70%" width="60%" alt="">
+                                    <p>fri</p>
+                              </div>
+
+                              <div class="d-flex flex-column align-items-center weekDays">
+                                    <img src="images/rectangle.png" height="70%" width="60%" alt="">
+                                    <p>sat</p>
+                              </div>
+
+                              <div class="d-flex flex-column align-items-center weekDays">
+                                    <img src="images/rectangle.png" height="70%" width="60%" alt="">
+                                    <p>sun</p>
+                              </div>
+                        </div>
+
+                        <section class="h-50 d-flex flex-row justify-content-between">
+                              <div class="d-flex flex-column justify-content-center pt-3 pb-3">
+                                    <p class="m-0 finalBalance">Total this month</p>
+                                    <h2 class="m-0">$478.33</h2>
+                              </div>
+                              <div class="d-flex flex-column justify-content-center ">
+                                    <p class="m-0"> +2.4%</p>
+                                    <p class="m-0 finalBalance"> from last month</p>
+                              </div>
+                        </section>
+                  </div>
+            </div>
+
+
+            <footer class="attribution mt-1">
+                  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+                        Mentor</a>.
+                  Coded by <a href="#">Your Name Here</a>.
+            </footer>
+      </div>
+
+
+      <script src="src/index.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
